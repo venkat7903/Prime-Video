@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.amazon-prime-container {
+  min-height: 100vh;
+  background: #000;
+  font-family: 'Roboto';
+  padding-bottom: 40px;
+}
+
+.prime-img {
+  width: 100%;
+}
+
+.action-comedy-slides-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.slider-title {
+  color: #fff;
+}
+
+.slider {
+  padding: 20px 40px;
+}
+
+@media (min-width: 768px) {
+  .slider {
+    padding: 40px 80px;
+  }
+}

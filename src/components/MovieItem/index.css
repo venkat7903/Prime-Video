@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.popup-content {
+  background-color: #00000080;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 90%;
+  max-width: 600px;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.close-btn {
+  border: none;
+  background-color: transparent;
+  align-self: flex-end;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.react-player {
+  padding: 20px;
+  padding-top: 5px;
+  margin: 10px;
+}
